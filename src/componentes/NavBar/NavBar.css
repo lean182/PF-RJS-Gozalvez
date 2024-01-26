@@ -14,12 +14,23 @@
   justify-content: space-between;
 }
 
+#navbar li:hover {
+  cursor: pointer;
+  background-color: rgb(92, 92, 92);
+}
+
 #navbar h1 {
   /* background-color: chartreuse; */
-  margin: 0 0 0 10px;
+  margin: 0 0 0 20px;
   font-size: 35px;
   color: white;
   text-shadow: 0px 0px 20px;
+}
+
+#navbar h1:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
 }
 
 #navbar ul {
@@ -42,6 +53,12 @@
   font-weight: bold;
   color: white;
   text-shadow: 0px 0px 2px white;
+}
+
+#navbar ul li a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .textocart {
@@ -74,9 +91,15 @@
   cursor: pointer;
 }
 
+
 .CartWidget {
   width: 50px;
-  background-color: chocolate;
   margin-right: 10px;
   padding-right: 5px;
+}
+
+#Carrito:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }

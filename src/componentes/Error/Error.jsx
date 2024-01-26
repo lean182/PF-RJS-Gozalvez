@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
-import "./error.css";
+import "./Error.css";
 
 const Error = () => {
   return (
-    <div>
-      <p className="Error404">404 not found</p>
-      <Link className="button" to="/">
+    <div className="errorYboton">
+      <p className="error404">404 not found</p>
+      <Link className="boton" to="/">
         Volver al inicio
       </Link>
     </div>

@@ -1,9 +1,9 @@
 import { createContext, useState } from "react";
 
-//Creamos un context de React llamado CartContex
+//Context de React llamado CartContex
 const CartContext = createContext();
 
-// Creamos un componente llamado CartProvider que servira como proveedor del contexto
+// Componente llamado CartProvider que servira como proveedor del contexto
 const CartProvider = ({ children }) => {
   const [carrito, setCarrito] = useState([]);
 

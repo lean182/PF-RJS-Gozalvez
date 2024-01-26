@@ -1,0 +1,108 @@
+.carrito {
+  min-height: 90vh;
+  padding: 20px;
+}
+
+.carrito .lista {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.carrito .producto {
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+  list-style: none;
+  padding: 10px 20px 10px 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.producto .imagen {
+  width: 70%;
+  margin: 0 15%;
+
+}
+
+.producto .texto {
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+.producto .borrar {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 5px;
+  color: rgb(46, 46, 46);
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.producto .borrar:hover {
+  background-color: rgb(210, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+
+.botones-carrito-borrar,
+.botones-carrito-continuar {
+  width: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 5px;
+  color: rgb(46, 46, 46);
+  text-decoration: none;
+  padding: 10px 0px 10px 0px;
+}
+
+.botones-carrito-continuar:hover {
+  cursor: pointer;
+  background-color: rgb(12, 102, 46);
+  color: white;
+
+}
+
+.botones-carrito-borrar:hover {
+  cursor: pointer;
+  background-color: rgb(210, 0, 0);
+  color: white;
+}
+
+.botones-carrito-borrar p {
+  font-weight: bold;
+  margin: 0px 10px 0px 10px;
+}
+
+.carrito-vacio {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrito-vacio .button {
+  width: 200px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
